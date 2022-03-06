@@ -222,7 +222,7 @@ int initRtl(char **argv, int optind)
 		    ((int)(1000000 * atof(argF) + INTRATE / 2) / INTRATE) *
 		    INTRATE;
 		optind++;
-		if (Fd[nbch] < 118000000 || Fd[nbch] > 138000000) {
+		if (Fd[nbch] < 118000000 || Fd[nbch] > 438000000) {
 			fprintf(stderr, "WARNING: Invalid frequency %d\n",
 				Fd[nbch]);
 			continue;

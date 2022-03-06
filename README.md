@@ -2,6 +2,10 @@
 Acarsdec is a multi-channels acars decoder with built-in rtl_sdr, airspy front end or sdrplay device.
 Since 3.0, It comes with a database backend : acarsserv to store received acars messages. (See acarsserv chapter below).
 
+## About this fork
+
+The purpose of this fork is to enable reception up to 438 MHz in order to allow experimentation using 432-438 MHz ISM band.
+
 ## Features :
 
  * up to 8 channels decoded simultaneously
